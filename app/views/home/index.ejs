@@ -1,0 +1,21 @@
+<div class="page-header">
+	<h1><%= title %></h1>
+	<div class="control-group">
+		<div class="controls">
+		<% var form = formFor('signin2',{action: '/signin2', method: 'POST', id: "post-form", class: 'form-horizontal'}) %>
+		<%- form.begin() %>
+		<div class="control-group">
+			<%- form.label('username', 'Username') %> 
+			<%- form.input('username') %>
+		</div>
+		<div class="control-group">
+			<%- form.label('password', 'Password') %> 
+			<%- form.input('password') %>
+		</div>
+		<div class="control-group">
+			<%- form.submit('Save') %>
+		</div>
+		<%- form.end() %>
+		</div>
+	</div>
+</div>
