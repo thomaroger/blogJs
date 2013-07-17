@@ -45,4 +45,3 @@ var User = describe('User', function () {
 
 User.hasMany(Post,   {as: 'posts',  foreignKey: 'userId'});
 Post.belongsTo(User, {as: 'user', foreignKey: 'userId'});
-

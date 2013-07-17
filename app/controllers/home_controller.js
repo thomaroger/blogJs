@@ -16,7 +16,7 @@ action('signin2', function () {
 			req.session.user = user.id;
 			redirect('posts');
 			return;
-		}   
+		}
 		redirect("/");
 	});
 

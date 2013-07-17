@@ -1,6 +1,6 @@
 module.exports = function (compound, User) {
 	/*User.checkSignin = function checkSignin(username, password, callback) {
-		
+
 		console.log(username);
 		console.log(password);
 
